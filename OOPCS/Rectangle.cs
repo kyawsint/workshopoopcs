@@ -5,11 +5,12 @@ using System.Text;
 
 namespace OOPCS
 {
-    class Rectangle
+    class Rectangle: Shape
     {
         double length, width;
 
         public Rectangle(double len, double wid)
+            : base(len, wid)
         {
             length = len;
             width = wid;
@@ -37,6 +38,12 @@ namespace OOPCS
         {
             double prm = (2 * length) + (2 * width);
             Console.WriteLine("Rectangle parimeter is {0}.", prm);
+        }
+
+        public override void Draw()
+        {
+            Area();
+            Parameter();
         }
     }
 }

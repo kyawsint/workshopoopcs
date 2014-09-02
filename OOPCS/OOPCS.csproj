@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPCS.wshop4</StartupObject>
+    <StartupObject>OOPCS.wshop6</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ISS.RV.LIB">
@@ -60,6 +60,7 @@
     <Compile Include="wshop2.cs" />
     <Compile Include="wshop3.cs" />
     <Compile Include="wshop4.cs" />
+    <Compile Include="wshop6.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

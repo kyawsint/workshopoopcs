@@ -18,7 +18,7 @@ namespace OOPCS
             // For Triangle
             Console.WriteLine("\nFor Triangle.");
             Triangle tri = new Triangle(3, 4, 5);
-            tri.isrighttriangle();
+            tri.IsRightTriangle();
             Console.WriteLine("{0} is parameter of triangle.", tri.Parameter);
             tri.Area();
 
