@@ -12,8 +12,7 @@ namespace OOPCS
             Shape[] shape = new Shape[] { new Rectangle(3, 4), new Triangle(3, 4, 5) };
             foreach (Shape s in shape)
             {
-                s.Draw();
-                
+                s.Draw();   
             }
         }
     }
